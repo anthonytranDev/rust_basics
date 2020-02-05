@@ -15,3 +15,7 @@ One profile for development i.e. build and one for stage/production
 
 Command above is used to benchmark code
 
+## rustup
+
+### rustup docs --book
+Opens the beginers guide up
