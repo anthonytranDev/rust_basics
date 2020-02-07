@@ -5,8 +5,8 @@ use rand::Rng;
 fn ask_for_guess(guess: &mut String){
     println!("\nPlease input your guess.");
     io::stdin()
-    .read_line(guess)
-    .expect("\nFailed to read line");
+        .read_line(guess)
+        .expect("\nFailed to read line");
 }
 
 fn main() {
@@ -26,7 +26,6 @@ fn main() {
         let guess: u32 = guess.trim().parse()
             .expect("Please type a number");
         
-
         // Can't refactor the code below
         // Unable to use keyword `break` outside of a loop
         // `rustc --explain E0268`
@@ -39,5 +38,4 @@ fn main() {
             },
         }
     }
-
 }
