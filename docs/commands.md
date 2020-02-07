@@ -17,3 +17,8 @@ Command above is used to benchmark code
 
 ### cargo doc --open
 Enables to install the docs from the all the dependencies in your project
+
+## rustup
+
+### rustup docs --book
+Opens the beginers guide up
