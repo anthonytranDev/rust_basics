@@ -15,3 +15,5 @@ One profile for development i.e. build and one for stage/production
 
 Command above is used to benchmark code
 
+### cargo doc --open
+Enables to install the docs from the all the dependencies in your project
