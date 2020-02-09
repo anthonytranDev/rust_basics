@@ -1,14 +1,19 @@
 {
-  "0": {
-    "name": "hello_world"
+  "rust": {
+    "0": {
+      "name": "hello_world"
+    },
+    "1": {
+      "name": "hello_cargo"
+    },
+    "2": {
+      "name": "guessing_game"
+    },
+    "3": {
+      "name": "rust_env"
+    }
   },
-  "1": {
-    "name": "hello_cargo"
-  },
-  "2": {
-    "name": "guessing_game"
-  },
-  "3": {
-    "name": "rust_env"
+  "webassembly": {
+    
   }
 }

@@ -29,7 +29,7 @@ fn main() {
         // Can't refactor the code below
         // Unable to use keyword `break` outside of a loop
         // `rustc --explain E0268`
-        match guess.cmp(secret_number) {
+        match guess.cmp(&secret_number) {
             Ordering::Less => println!("The number {} is too small", guess),
             Ordering::Greater => println!("The number {} is too big", guess),
             Ordering::Equal => {
