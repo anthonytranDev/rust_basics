@@ -1,5 +1,5 @@
 [package]
-name = "adder"
+name = "how_to_write_tests"
 version = "0.1.0"
 authors = ["anthonytranDev <anthonytran.dev@gmail.com>"]
 edition = "2018"
