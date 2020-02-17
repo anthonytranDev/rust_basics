@@ -1,4 +1,15 @@
 #[allow(dead_code)]
 pub fn greeting(name: &str) -> String {
-    String::from("Hello!")
+    String::from(name)
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn greeting_contains_name() {
+        let result = greeting("Carol");
+        assert!(result.contains("Carol"));
+    }
 }
