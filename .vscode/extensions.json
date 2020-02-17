@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+    "bungcip.better-toml",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "rebornix.project-snippets",
+    "rust-lang.rust"
+	]
+}

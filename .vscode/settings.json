@@ -1,7 +1,8 @@
 {
+  "editor.fontFamily": "Fira Code, Monaco",
+  "editor.fontLigatures": true,
+  "editor.tabCompletion": "on",
   "[rust]": {
     "editor.tabSize": 4
-  },
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true
+  }
 }

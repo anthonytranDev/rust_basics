@@ -1,0 +1,10 @@
+{
+	"allow": {
+		"scope": "rust",
+		"prefix": "allow",
+		"body": [
+			"#[allow(${1:lint_type})]$2"
+		],
+		"description": "Disable rust-lang lint type"
+	}
+}
