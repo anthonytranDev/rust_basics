@@ -10,7 +10,12 @@
       "name": "guessing_game"
     },
     "3": {
-      "name": "rust_env"
+      "name": "automated_test",
+      "automated_test": {
+        "0": {
+          "name": "how_to_write_tests"
+        }  
+      }
     }
   },
   "webassembly": {
